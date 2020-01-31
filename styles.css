@@ -1,0 +1,63 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+}
+
+.header-item {
+  color: #007bff;
+  text-align: center;
+  font-family: "Copperplate Gothic Light";
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+.feature-divider {
+  border: solid 3px;
+  border-width: large;
+  border-bottom: 0;
+  display: block;
+  width: 30px;
+  margin: 25px auto;
+  border-color: #007bff;
+}
+
+.row1 {
+  background-color: #007bff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row2 {
+  background-color: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row-cols-4 > * {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
